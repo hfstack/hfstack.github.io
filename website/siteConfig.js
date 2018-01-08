@@ -42,7 +42,7 @@ const siteConfig = {
     'Copyright © ' +
     new Date().getFullYear() +
     ' Your Name or Your Company Name',
-  organizationName: 'deltice', // or set an env variable ORGANIZATION_NAME
+  organizationName: 'hfstack', // or set an env variable ORGANIZATION_NAME
   projectName: 'blog', // or set an env variable PROJECT_NAME
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
