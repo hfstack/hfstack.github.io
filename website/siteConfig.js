@@ -20,7 +20,6 @@ const siteConfig = {
   tagline: 'A website for testing',
   url: 'https://hfstack.github.io' /* your website url */,
   baseUrl: '/blog/' /* base url for your project */,
-  projectName: 'hfstack.github.io',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
@@ -50,7 +49,7 @@ const siteConfig = {
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  // repoUrl: 'https://github.com/hfstack/hfstack.github.io',
+  repoUrl: 'https://github.com/hfstack/hfstack.github.io',
 };
 
 module.exports = siteConfig;
