@@ -42,7 +42,7 @@ const siteConfig = {
     new Date().getFullYear() +
     ' Your Name or Your Company Name',
   organizationName: 'hfstack', // or set an env variable ORGANIZATION_NAME
-  projectName: 'hfstack.github.io', // or set an env variable PROJECT_NAME
+  projectName: 'blog', // or set an env variable PROJECT_NAME
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
