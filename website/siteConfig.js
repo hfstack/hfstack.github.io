@@ -20,7 +20,7 @@ const siteConfig = {
   tagline: 'A website for testing',
   url: 'https://hfstack.github.io' /* your website url */,
   baseUrl: '/blog/' /* base url for your project */,
-  projectName: 'blog',
+  projectName: 'hfstack.github.io',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
@@ -43,14 +43,14 @@ const siteConfig = {
     new Date().getFullYear() +
     ' Your Name or Your Company Name',
   organizationName: 'hfstack', // or set an env variable ORGANIZATION_NAME
-  projectName: 'blog', // or set an env variable PROJECT_NAME
+  projectName: 'hfstack.github.io', // or set an env variable PROJECT_NAME
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/hfstack/hfstack.github.io',
+  // repoUrl: 'https://github.com/hfstack/hfstack.github.io',
 };
 
 module.exports = siteConfig;
