@@ -19,7 +19,7 @@ const siteConfig = {
   title: 'Test Site' /* title for your website */,
   tagline: 'A website for testing',
   url: 'https://hfstack.github.io' /* your website url */,
-  baseUrl: '/blog/' /* base url for your project */,
+  baseUrl: '/' /* base url for your project */,
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
