@@ -9,22 +9,22 @@
 const users = [
   {
     caption: 'User1',
-    image: '/test-site/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
+    image: '/blog/img/docusaurus.svg',
+    infoLink: 'https://www.baidu.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
-  tagline: 'A website for testing',
+  title: '个人博客' /* title for your website */,
+  tagline: 'A website for personal blog',
   url: 'https://hfstack.github.io' /* your website url */,
   baseUrl: '/blog/' /* base url for your project */,
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'doc1', label: '博客'},
+    {doc: 'doc4', label: '开源项目'},
+    {page: 'help', label: '帮助'},
+    {blog: true, label: '简历'},
   ],
   users,
   /* path to images for header/footer */
@@ -40,7 +40,7 @@ const siteConfig = {
   copyright:
     'Copyright © ' +
     new Date().getFullYear() +
-    ' Your Name or Your Company Name',
+    'hfstack',
   organizationName: 'hfstack', // or set an env variable ORGANIZATION_NAME
   projectName: 'blog', // or set an env variable PROJECT_NAME
   highlight: {
