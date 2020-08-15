@@ -27,9 +27,6 @@ avatar: /assets/img/sample/avatar.jpg   # support internet resources
 github:
   username: hfstack             # change to your github username
 
-twitter:
-  username: hfstack            # change to your twitter username
-
 social:
   name: hfstack                  # it will shows as the copyright owner in Footer
   email: zhonggongsm@126.com             # change to your email address
